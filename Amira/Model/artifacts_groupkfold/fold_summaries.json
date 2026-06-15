@@ -1,0 +1,287 @@
+[
+  {
+    "fold": 1,
+    "train": {
+      "windows": 348594,
+      "positives": 42664,
+      "negatives": 305930,
+      "patients": 16,
+      "recordings": 80,
+      "intervals": 17,
+      "patient_ids": [
+        "chb01",
+        "chb02",
+        "chb03",
+        "chb05",
+        "chb06",
+        "chb07",
+        "chb10",
+        "chb11",
+        "chb13",
+        "chb14",
+        "chb16",
+        "chb17",
+        "chb19",
+        "chb20",
+        "chb21",
+        "chb23"
+      ]
+    },
+    "val": {
+      "windows": 110749,
+      "positives": 16320,
+      "negatives": 94429,
+      "patients": 4,
+      "recordings": 31,
+      "intervals": 37,
+      "patient_ids": [
+        "chb09",
+        "chb12",
+        "chb18",
+        "chb24"
+      ]
+    },
+    "test": {
+      "windows": 112562,
+      "positives": 27688,
+      "negatives": 84874,
+      "patients": 4,
+      "recordings": 25,
+      "intervals": 34,
+      "patient_ids": [
+        "chb04",
+        "chb08",
+        "chb15",
+        "chb22"
+      ]
+    }
+  },
+  {
+    "fold": 2,
+    "train": {
+      "windows": 393247,
+      "positives": 64920,
+      "negatives": 328327,
+      "patients": 15,
+      "recordings": 98,
+      "intervals": 37,
+      "patient_ids": [
+        "chb01",
+        "chb03",
+        "chb05",
+        "chb07",
+        "chb10",
+        "chb11",
+        "chb12",
+        "chb13",
+        "chb15",
+        "chb16",
+        "chb18",
+        "chb19",
+        "chb20",
+        "chb23",
+        "chb24"
+      ]
+    },
+    "val": {
+      "windows": 62243,
+      "positives": 14232,
+      "negatives": 48011,
+      "patients": 4,
+      "recordings": 14,
+      "intervals": 10,
+      "patient_ids": [
+        "chb04",
+        "chb08",
+        "chb17",
+        "chb22"
+      ]
+    },
+    "test": {
+      "windows": 116415,
+      "positives": 7520,
+      "negatives": 108895,
+      "patients": 5,
+      "recordings": 24,
+      "intervals": 17,
+      "patient_ids": [
+        "chb02",
+        "chb06",
+        "chb09",
+        "chb14",
+        "chb21"
+      ]
+    }
+  },
+  {
+    "fold": 3,
+    "train": {
+      "windows": 351351,
+      "positives": 55760,
+      "negatives": 295591,
+      "patients": 15,
+      "recordings": 85,
+      "intervals": 37,
+      "patient_ids": [
+        "chb02",
+        "chb03",
+        "chb06",
+        "chb07",
+        "chb08",
+        "chb09",
+        "chb12",
+        "chb13",
+        "chb14",
+        "chb15",
+        "chb17",
+        "chb18",
+        "chb19",
+        "chb21",
+        "chb22"
+      ]
+    },
+    "val": {
+      "windows": 102837,
+      "positives": 10336,
+      "negatives": 92501,
+      "patients": 4,
+      "recordings": 18,
+      "intervals": 14,
+      "patient_ids": [
+        "chb04",
+        "chb10",
+        "chb16",
+        "chb23"
+      ]
+    },
+    "test": {
+      "windows": 117717,
+      "positives": 20576,
+      "negatives": 97141,
+      "patients": 5,
+      "recordings": 33,
+      "intervals": 25,
+      "patient_ids": [
+        "chb01",
+        "chb05",
+        "chb11",
+        "chb20",
+        "chb24"
+      ]
+    }
+  },
+  {
+    "fold": 4,
+    "train": {
+      "windows": 344475,
+      "positives": 62456,
+      "negatives": 282019,
+      "patients": 15,
+      "recordings": 87,
+      "intervals": 37,
+      "patient_ids": [
+        "chb01",
+        "chb04",
+        "chb05",
+        "chb07",
+        "chb08",
+        "chb09",
+        "chb10",
+        "chb12",
+        "chb13",
+        "chb14",
+        "chb15",
+        "chb17",
+        "chb20",
+        "chb21",
+        "chb22"
+      ]
+    },
+    "val": {
+      "windows": 113183,
+      "positives": 12880,
+      "negatives": 100303,
+      "patients": 4,
+      "recordings": 25,
+      "intervals": 25,
+      "patient_ids": [
+        "chb02",
+        "chb06",
+        "chb11",
+        "chb24"
+      ]
+    },
+    "test": {
+      "windows": 114247,
+      "positives": 11336,
+      "negatives": 102911,
+      "patients": 5,
+      "recordings": 24,
+      "intervals": 14,
+      "patient_ids": [
+        "chb03",
+        "chb16",
+        "chb18",
+        "chb19",
+        "chb23"
+      ]
+    }
+  },
+  {
+    "fold": 5,
+    "train": {
+      "windows": 338241,
+      "positives": 41720,
+      "negatives": 296521,
+      "patients": 15,
+      "recordings": 81,
+      "intervals": 25,
+      "patient_ids": [
+        "chb01",
+        "chb02",
+        "chb03",
+        "chb04",
+        "chb06",
+        "chb08",
+        "chb09",
+        "chb11",
+        "chb14",
+        "chb16",
+        "chb18",
+        "chb20",
+        "chb21",
+        "chb22",
+        "chb24"
+      ]
+    },
+    "val": {
+      "windows": 122700,
+      "positives": 25400,
+      "negatives": 97300,
+      "patients": 4,
+      "recordings": 25,
+      "intervals": 34,
+      "patient_ids": [
+        "chb05",
+        "chb15",
+        "chb19",
+        "chb23"
+      ]
+    },
+    "test": {
+      "windows": 110964,
+      "positives": 19552,
+      "negatives": 91412,
+      "patients": 5,
+      "recordings": 30,
+      "intervals": 37,
+      "patient_ids": [
+        "chb07",
+        "chb10",
+        "chb12",
+        "chb13",
+        "chb17"
+      ]
+    }
+  }
+]

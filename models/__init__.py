@@ -1,0 +1,2 @@
+from .eeg_fusion_cnn import EEGChannelInputFusion, EEGChannelFeatureFusion
+from .criterion_optimizer import get_criterion_optimizer

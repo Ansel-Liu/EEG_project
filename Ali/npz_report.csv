@@ -1,0 +1,25 @@
+filename,full_path,patient_id,array_key,dtype,ndim,shape,num_elements,samples_dim0,channels_dim1,length_dim2,min,max,mean,std,nan_count,inf_count,zero_count,read_status,error_message
+chb01_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb01_seizure_EEGwindow_1.npz,chb01,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb02_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb02_seizure_EEGwindow_1.npz,chb02,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb03_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb03_seizure_EEGwindow_1.npz,chb03,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb04_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb04_seizure_EEGwindow_1.npz,chb04,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb05_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb05_seizure_EEGwindow_1.npz,chb05,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb06_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb06_seizure_EEGwindow_1.npz,chb06,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb07_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb07_seizure_EEGwindow_1.npz,chb07,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb08_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb08_seizure_EEGwindow_1.npz,chb08,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb09_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb09_seizure_EEGwindow_1.npz,chb09,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb10_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb10_seizure_EEGwindow_1.npz,chb10,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb11_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb11_seizure_EEGwindow_1.npz,chb11,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb12_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb12_seizure_EEGwindow_1.npz,chb12,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb13_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb13_seizure_EEGwindow_1.npz,chb13,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb14_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb14_seizure_EEGwindow_1.npz,chb14,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb15_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb15_seizure_EEGwindow_1.npz,chb15,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb16_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb16_seizure_EEGwindow_1.npz,chb16,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb17_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb17_seizure_EEGwindow_1.npz,chb17,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb18_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb18_seizure_EEGwindow_1.npz,chb18,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb19_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb19_seizure_EEGwindow_1.npz,chb19,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb20_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb20_seizure_EEGwindow_1.npz,chb20,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb21_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb21_seizure_EEGwindow_1.npz,chb21,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb22_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb22_seizure_EEGwindow_1.npz,chb22,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb23_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb23_seizure_EEGwindow_1.npz,chb23,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False
+chb24_seizure_EEGwindow_1.npz,/export/hhome/ricse/Epilepsy/chb24_seizure_EEGwindow_1.npz,chb24,,,,,,,,,,,,,,,,error,Object arrays cannot be loaded when allow_pickle=False

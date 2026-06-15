@@ -1,0 +1,10 @@
+experiment,n_samples,tn,fp,fn,tp
+patient_cnn_lstm,114746,95945,8465,6209,4127
+patient_cnn_lstm_mediansmoothing,114746,97071,7339,5888,4448
+patient_feature_fusion,114746,92272,12138,6237,4099
+patient_input_fusion,114746,96914,7496,7035,3301
+seizure_cnn_lstm,4062,2591,175,401,895
+seizure_cnn_lstm_4D,4042,2746,0,14,1282
+seizure_cnn_lstm_mediansmoothing,4062,2649,117,389,907
+seizure_feature_fusion,4062,2583,183,422,874
+seizure_input_fusion,4062,2596,170,805,491
