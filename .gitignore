@@ -213,3 +213,13 @@ __marimo__/
 
 # Ignore generated EDA reports
 data_profiling/*.csv
+
+# Ignore individual fold logs and reports
+results/**/*fold*
+results/**/*.txt
+results/**/*.npz
+
+# Keep only the aggregated CSV summaries and ALL confusion matrix images
+!results/confusion_matrix_aggregated_summary.csv
+!results/confusion_matrix_summary.csv
+!results/**/*ALL*.png
