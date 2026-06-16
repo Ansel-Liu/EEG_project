@@ -1,2 +1,0 @@
-data_dir,num_npz_files,num_parquet_files,total_npz_size_bytes,total_parquet_size_bytes,total_size_bytes
-/export/hhome/ricse/Epilepsy,24,24,13838610544,95613,13838706157

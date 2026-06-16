@@ -1,12 +1,11 @@
 from pathlib import Path
-
 import numpy as np
 
 from .utils import get_paths
 from .data_label import get_empty_data_dict
 
-
-def get_np_train_val_and_test(train_val_dataset, test_dataset, val_slit: float = 0.2):
+def get_np_train_val_and_test(train_val_dataset, test_dataset, val_split: float = 0.2):
+    """Utility to finalize the splits into Training, Validation, and Test dictionaries."""
     for key in train_val_dataset.keys():
         train_val_dataset[key] = np.concatenate(train_val_dataset[key], axis=0)
         test_dataset[key] = np.concatenate(test_dataset[key], axis=0)
@@ -15,7 +14,8 @@ def get_np_train_val_and_test(train_val_dataset, test_dataset, val_slit: float =
     unique_patient_ids = np.unique(train_val_dataset["patient_id"])
 
     train_mask = np.zeros(train_val_dataset["y"].shape[0], dtype=bool)
-    split_idx = int(len(unique_patient_ids) * (1. - val_slit))
+    split_idx = int(len(unique_patient_ids) * (1. - val_split))
+    
     for pat_id in unique_patient_ids[:split_idx]:
         train_mask[pat_ids == pat_id] = True
 
@@ -28,31 +28,32 @@ def get_np_train_val_and_test(train_val_dataset, test_dataset, val_slit: float =
 
     return train_dataset, val_dataset, test_dataset
 
-
-def get_seizure_datasets(data_directory: Path, pat_id_test, val_split: float = 0.2):
+def get_seizure_datasets(data_directory: Path, pat_id_test: str, val_split: float = 0.2):
+    """
+    Generates datasets using a Seizure-level split.
+    CRITICAL: It applies a mask to drop temporally adjacent windows to prevent Data Leakage.
+    """
     if not isinstance(pat_id_test, str):
         raise TypeError("Patient ID must be a string for the DataLoader by seizure")
 
     paths = get_paths(data_directory=data_directory)
-
     train_val_dataset = get_empty_data_dict()
     test_dataset = get_empty_data_dict()
 
     for path in paths:
-        data = np.load(
-            file=path,
-            allow_pickle=True,
-        )
-
+        data = np.load(file=path, allow_pickle=True)
         patient_ids = data["patient_id"]
         unique_patient_ids = np.unique(patient_ids)
 
         train_mask = np.ones(patient_ids.shape[0], dtype=bool)
+        
         if pat_id_test in unique_patient_ids:
             y = data["y"].reshape(-1)
             global_interval = data["global_interval"]
             last_no_seizure_idx = global_interval[y == 0].max()
             last_seizure_idx = global_interval[y == 1].max()
+            
+            # Prevent temporal data leakage by excluding edge intervals
             train_mask[(global_interval == last_no_seizure_idx) & (y == 0)] = 0
             train_mask[(global_interval == last_seizure_idx) & (y == 1)] = 0
 
@@ -63,7 +64,7 @@ def get_seizure_datasets(data_directory: Path, pat_id_test, val_split: float = 0
     return get_np_train_val_and_test(
         train_val_dataset=train_val_dataset,
         test_dataset=test_dataset,
-        val_slit=val_split
+        val_split=val_split  # Fixed typo: val_slit -> val_split
     )
 
 
