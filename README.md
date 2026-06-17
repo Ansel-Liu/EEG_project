@@ -39,16 +39,22 @@ Because continuous EEG monitoring presents a highly imbalanced classification pr
 
 ## Repository Structure
 
+
 ```text
-├── config/                 # Hyperparameter configurations (DataClasses)
-├── data_profiling/         # Automated EDA and dataset statistical reports
-├── data_utils/             # Preprocessing, Z-score scaling, and dataset splits
+├── data_loader/            # PyTorch Dataset wrappers for in-memory loading
+├── data_profiling/         # Automated EDA and dataset statistical CSV reports
+├── data_utils/             # Dataset splitting, Z-score scaling, and masking logic
 ├── io_data/                # Defensive I/O loaders for NPZ and Parquet files
-├── models/                 # Neural network architectures (Feature Fusion CNN, Bi-LSTM)
-├── training/               # Training loops, early stopping, and evaluation metrics
-├── figures/                # Auto-generated visualization charts
+├── Model/                  # Execution artifacts (config, history) and baseline scripts
+├── models/                 # Core PyTorch architectures (Feature Fusion CNN, Bi-LSTM)
 ├── results/                # Aggregated confusion matrices and performance CSVs
-└── run_baseline.py         # Main execution entry point
+├── training/               # Modular training loops and memory-safe evaluation steps
+├── visualizations/         # Auto-generated performance charts and metrics plots
+├── kfold_config.py         # Global hyperparameter DataClass configuration
+├── kfold_training.py       # Main automated K-Fold cross-validation pipeline
+├── main.py                 # Secondary execution entry point
+├── preprocessing.py        # Median smoothing and scaling script
+└── provider.py             # Factory pattern implementations for models and I/O
 ```
 
 ---
